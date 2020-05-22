@@ -3,7 +3,7 @@
   "version": "2.1.6",
   "private": true,
   "scripts": {
-    "postinstall": "npx jetify && cd ios && pod install",
+   
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "start:reset": "npm run start --reset-cache",
     "test": "jest",
